@@ -1,0 +1,31 @@
+.features-item h3 {
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.features-item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.hidden-message {
+  display: none;
+}
