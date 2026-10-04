@@ -17,8 +17,8 @@
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: block;
 }
 
@@ -31,6 +31,9 @@
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .info:hover,
@@ -40,28 +43,36 @@
 
 address {
   font-style: normal;
+  margin-left: auto;
 }
 
-header .container {
+#header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 1158px;
-  height: 72px;
 }
 
 .contacts-list {
   display: flex;
   gap: 40px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-list {
   display: flex;
   gap: 40px;
+  margin-left: 76px;
+  margin: 0;
+  padding: 0;
 }
 
-header .container {
+#header {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.nav {
   display: flex;
   align-items: center;
+  margin-left: 76px;
 }
