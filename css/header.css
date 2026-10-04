@@ -46,11 +46,6 @@ address {
   margin-left: auto;
 }
 
-#header .container {
-  display: flex;
-  align-items: center;
-}
-
 .contacts-list {
   display: flex;
   gap: 40px;
@@ -67,12 +62,22 @@ address {
   padding: 0;
 }
 
-#header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
 .nav {
   display: flex;
   align-items: center;
   margin-left: 76px;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header .container {
+  display: flex;
+  align-items: center;
+}
+
+.contacts {
+  font-style: normal;
+  margin-left: auto;
 }
